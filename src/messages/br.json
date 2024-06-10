@@ -1,0 +1,15 @@
+{
+  "Index": {
+    "title": "Pokemon, Temos que pegar!",
+    "pages": "Página {currentPage} de {totalPages}"
+  },
+  "Info": {
+    "types": "Tipos",
+    "resistances": "Resistências",
+    "weaknesses": "Fraquezas",
+    "button": "Mostrar ataques",
+    "energy": "Custo de energia",
+    "damage": "Dano",
+    "effect": "Efeito"
+  }
+}

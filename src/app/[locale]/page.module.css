@@ -1,0 +1,61 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+  gap: 30px;
+  padding: 16px;
+}
+
+.title {
+  text-align: center;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+.carouselContainer {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carouselItem {
+  flex: 0 0 80%;
+  scroll-snap-align: center;
+  margin: 0 10px;
+}
+
+@media (max-width: 480px) {
+  .cardContainer {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .card {
+    flex: 0 0 80%;
+    scroll-snap-align: center;
+    margin: 0 10px;
+  }
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  background-color: var(--button-background-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.pagination span {
+  color: var(--text-color);
+}
+/* page.module.css */

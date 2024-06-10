@@ -1,0 +1,41 @@
+.card {
+  border-radius: var(--border-radius);
+  height: 445px;
+  width: 240px;
+  text-align: center;
+  transition: 500ms ease-in-out;
+  animation: rainbow 5s infinite;
+  background-color: var(--card-background-color);
+  color: var(--text-color);
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+@keyframes rainbow {
+  0% {
+    box-shadow: 0 0 8px 2px var(--rainbow-red);
+  }
+  14.28% {
+    box-shadow: 0 0 8px 2px var(--rainbow-orange);
+  }
+  28.56% {
+    box-shadow: 0 0 8px 2px var(--rainbow-yellow);
+  }
+  42.84% {
+    box-shadow: 0 0 8px 2px var(--rainbow-green);
+  }
+  57.12% {
+    box-shadow: 5px 5px 10px var(--rainbow-blue);
+  }
+  71.4% {
+    box-shadow: 0 0 8px 2px var(--rainbow-indigo);
+  }
+  85.68% {
+    box-shadow: 0 0 8px 2px var(--rainbow-violet);
+  }
+  100% {
+    box-shadow: 0 0 8px 2px var(--rainbow-red);
+  }
+}

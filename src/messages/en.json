@@ -1,0 +1,15 @@
+{
+  "Index": {
+    "title": "Pokemon, Gotta Catch 'Em All!",
+    "pages": "Page {currentPage} of {totalPages}"
+  },
+  "Info": {
+    "types": "Types",
+    "resistances": "Resistances",
+    "weaknesses": "Weaknesses",
+    "button": "Show attacks",
+    "energy": "Energy cost",
+    "damage": "Damage",
+    "effect": "Effect"
+  }
+}
